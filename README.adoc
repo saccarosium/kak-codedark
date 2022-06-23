@@ -12,7 +12,7 @@ For the installation, just curl the file in your kakoune's config:
 [,shell]
 ----
 mkdir -p ~/.config/kak/colors/
-curl <url> -o ~/.config/kak/colors/codedark.kak
+curl https://raw.githubusercontent.com/saccarosium/kak-codedark/main/colors/codedark.kak -o ~/.config/kak/colors/codedark.kak
 ----
 
 Alternatively you can use plug.kak:
