@@ -21,6 +21,8 @@ declare-option str cursordark 'rgb:51504F'
 declare-option str cursorlight 'rgb:AEAFAD'
 declare-option str menubg 'rgb:2D2D30'
 declare-option str menufg 'rgb:BBBBBB'
+set-face global WrapMarker "%opt{symbols}"
+set-face global Wrapspace "%opt{symbols}"
 
 set-face global value "%opt{lightgreen}"
 set-face global type "%opt{blue}"
